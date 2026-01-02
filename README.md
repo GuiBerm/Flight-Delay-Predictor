@@ -10,7 +10,7 @@ This application loads a pre-trained Spark Pipeline (`final_flight_app_model`) t
 
 ## Project Structure
 The submission is organized as follows:
-
+```text
 /Flight-Delay-Predictor
    ├── README.txt                     # This instruction file
    ├── requirements.txt               # List of dependencies
@@ -21,7 +21,7 @@ The submission is organized as follows:
          │
          └── /models
                 └── final_flight_app_model  # The pre-trained Spark Pipeline (Do not rename)
-
+```
 ## Usage
 Run the application using `spark-submit`. You must provide the path to the test data. The paths to the auxiliary files are optional (defaults provided in code).
 
